@@ -1,0 +1,16 @@
+<!-- <h1>Schools#show</h1>
+<p>Find me in app/views/schools/show.html.erb</p> -->
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @school.name %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @school.location %>
+</p>
+
+<%= link_to 'Edit', edit_school_path(@school) %> |
+<%= link_to 'Back', schools_path %>

@@ -1,0 +1,16 @@
+<%= form_with(model: room, local: true) do |f| %>
+
+ <div>
+   <%= f.label :std %>
+   <%= f.text_field :std %>
+ </div>
+
+ <div>
+   <%= f.label :strength %>
+   <%= f.number_field :strength %>
+ </div>
+
+ <div >
+   <%= f.submit %>
+ </div>
+ <% end %>
